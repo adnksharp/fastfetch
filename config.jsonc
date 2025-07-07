@@ -1,0 +1,64 @@
+{
+	"modules": [
+		{
+			"type": "host",
+			"key": "{icon}",
+			"format": "{1}"
+		},
+		{
+			"type": "os",
+			"key": "{icon}",
+			"format": "{2}"
+		},
+		{
+			"type": "kernel",
+			"key": "{icon}",
+			"format": "{2}"
+		},
+		{
+			"type": "shell",
+			"key": "{icon}"
+		},
+		{
+			"type": "wm",
+			"key": "{icon}",
+			"format": "{2}"
+		},
+		{
+			"type": "terminal",
+			"key": "{icon}",
+			"format": "{1}"
+		},
+		{
+			"type": "cpu",
+			"key": "{icon}",
+			"format": "{1}"
+		},
+		{
+			"type": "memory",
+			"key": "{icon}",
+			"format": "{1} / {2}"
+		},
+		{
+			"type": "swap",
+			"key": "{icon}",
+			"format": "{1} / {2}"
+		},
+		{
+			"type": "localip",
+			"key": "{icon}"
+		}
+	],
+	"logo": {
+		"type": "file",
+		"source": "~/.config/fastfetch/arch",
+		"padding": {
+			"top": 0,
+			"left": 2,
+			"right": 2
+		},
+		"color": {
+			"1": "blue"
+		}
+	}
+}
