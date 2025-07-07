@@ -16,6 +16,10 @@
 			"format": "{2}"
 		},
 		{
+			"type": "packages",
+			"key": "{icon}"
+		},
+		{
 			"type": "shell",
 			"key": "{icon}"
 		},
@@ -36,11 +40,6 @@
 		},
 		{
 			"type": "memory",
-			"key": "{icon}",
-			"format": "{1} / {2}"
-		},
-		{
-			"type": "swap",
 			"key": "{icon}",
 			"format": "{1} / {2}"
 		},
