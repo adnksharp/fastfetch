@@ -50,7 +50,7 @@
 	],
 	"logo": {
 		"type": "file",
-		"source": "~/.config/fastfetch/arch",
+		"source": "~/.config/fastfetch/debian",
 		"padding": {
 			"top": 0,
 			"left": 2,
