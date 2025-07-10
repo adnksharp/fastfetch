@@ -11,6 +11,10 @@
 			"format": "{2}"
 		},
 		{
+			"type": "uptime",
+			"key": "{icon}"
+		},
+		{
 			"type": "kernel",
 			"key": "{icon}",
 			"format": "{2}"
@@ -22,11 +26,6 @@
 		{
 			"type": "shell",
 			"key": "{icon}"
-		},
-		{
-			"type": "wm",
-			"key": "{icon}",
-			"format": "{2}"
 		},
 		{
 			"type": "terminal",
