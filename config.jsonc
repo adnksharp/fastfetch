@@ -1,23 +1,42 @@
 {
 	"modules": [
 		{
-			"type": "host",
+			"type": "title",
 			"key": "{icon}",
-			"format": "{1}"
+			"format": "{2}"
 		},
 		{
 			"type": "os",
 			"key": "{icon}",
-			"format": "{2}"
+			"format": "{3}"
 		},
 		{
 			"type": "uptime",
 			"key": "{icon}"
 		},
 		{
+			"type": "cpu",
+			"key": "{icon}",
+			"format": "{1}"
+		},
+		{
+			"type": "gpu",
+			"key": "{icon}",
+			"format": "{2}",
+			"driverSpecific": true,
+			"detectionMethod": "pci",    
+			"temp": false,
+			"hideType": "none"
+		},
+		{
 			"type": "kernel",
 			"key": "{icon}",
 			"format": "{2}"
+		},
+		{
+			"type": "memory",
+			"key": "{icon}",
+			"format": "{1} / {2}"
 		},
 		{
 			"type": "packages",
@@ -33,30 +52,21 @@
 			"format": "{1}"
 		},
 		{
-			"type": "cpu",
-			"key": "{icon}",
-			"format": "{1}"
-		},
-		{
-			"type": "memory",
-			"key": "{icon}",
-			"format": "{1} / {2}"
-		},
-		{
 			"type": "localip",
+			"key": "{icon}"
+    	},
+		{
+			"type": "bluetooth",
 			"key": "{icon}"
 		}
 	],
 	"logo": {
 		"type": "file",
-		"source": "~/.config/fastfetch/arch",
+		"source": "~/.config/fastfetch/ubuntu",
 		"padding": {
 			"top": 0,
-			"left": 2,
-			"right": 2
-		},
-		"color": {
-			"1": "blue"
+			"left": 1,
+			"right": 1
 		}
 	}
 }
